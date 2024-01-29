@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "Gabarito";
+  src: url("/assets/fonts/Gabarito/Gabarito-Regular.eot");
+  src: url("/assets/fonts/Gabarito/Gabarito-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("/assets/fonts/Gabarito/Gabarito-Regular.woff2") format("woff2"),
+    url("/assets/fonts/Gabarito/Gabarito-Regular.woff") format("woff"),
+    url("/assets/fonts/Gabarito/Gabarito-Regular.svg#Gabarito-Regular")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "libre";
+  src: url("/assets/fonts/LibreBaskerville/LibreBaskerville-Regular.eot");
+  src: url("/assets/fonts/LibreBaskerville/LibreBaskerville-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("/assets/fonts/LibreBaskerville/LibreBaskerville-Regular.woff2")
+      format("woff2"),
+    url("/assets/fonts/LibreBaskerville/LibreBaskerville-Regular.woff")
+      format("woff"),
+    url("/assets/fonts/LibreBaskerville/LibreBaskerville-Regular.svg#LibreBaskerville-Regular")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+}

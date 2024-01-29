@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
+    />
+    <link
+      rel="shortcut icon"
+      href="./assets/images/logo.svg"
+      type="image/x-icon"
+    />
+    <title>Wyndham law</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/11e715794e.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js"></script>
+  </head>
+  <body>
+    <div class="container mx-auto">
+      <header class="relative">
+        <div class="text-right hidden xl:block calling">
+          <p>
+            Call For A Free Consultation:
+            <i class="fa-solid fa-phone"></i> 843-919-7910
+          </p>
+        </div>
+        <nav class="xl:flex block items-center relative justify-between">
+          <div class="flex justify-between p-4 xl:p-0 xl:w-full">
+            <div class="flex items-center site-title-container">
+              <a href="home.html " title="WYNDHAM LAW FIRM, LLC">
+                <img src="/assets/images/logo.svg" alt="site logo" />
+              </a>
+              <p class="text-2xl ml-4 site-title">
+                WYNDHAM <br />
+                LAW FIRM, LLC
+              </p>
+            </div>
+            <ul class="xl:flex hidden items-center">
+              <li><a href="home.html">Home</a></li>
+              <li><a href="#">Personal Injury</a></li>
+              <li><a href="#">Criminal Defense</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Attorneys</a></li>
+              <li class="cursor-pointer"><a href="#">CONTACT US</a></li>
+            </ul>
+            <div class="flex xl:hidden items-center gap-6">
+              <a href="tel:843-919-7910" title="call us">
+                <i class="fa-solid fa-phone"></i>
+              </a>
+              <button id="mobile-button" class="xl:hidden block">
+                <i
+                  onclick="changeIcon(this)"
+                  title="Menu"
+                  class="fa-solid fa-bars"
+                ></i>
+              </button>
+            </div>
+          </div>
+          <div>
+            <div class="mobile-menu absolute w-full" id="mobile-menu">
+              <ul
+                class="bg-[#151E3A] flex flex-col py-6 xl:hidden items-center z-10"
+              >
+                <li><a href="home.html">Home</a></li>
+                <li><a href="#">Personal Injury</a></li>
+                <li><a href="#">Criminal Defense</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Attorneys</a></li>
+                <li><a href="#">CONTACT US</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <div class="flex flex-col xl:items-center px-6 xl:px-0">
+          <h1>
+            Your Ally When <br />Life Takes An <br />
+            Unexpected Turn
+          </h1>
+          <div class="w-full flex flex-col btn xl:items-center items-start">
+            <p class="heading-para mt-4 xl:self-end">
+              Welcome to Wyndham Law Firm, your go-to personal injury attorneys
+              right here in Charleston, South Carolina. We're all about getting
+              you the justice and compensation you deserve, and we've got three
+              decades of experience and knowledge that prove it. When you need
+              someone in your corner, we've got your back.
+            </p>
+            <a class="" href="#">FREE CONSULTATION</a>
+          </div>
+        </div>
+        <div class="rotaction bottom-40 absolute hidden xl:flex left-0">
+          <span class="mr-3">GET IN TOUCH WITH US </span>
+          <img src="assets/images/arrow-up.svg" alt="arrow-up" />
+        </div>
+        <div
+          class="p-6 flex xl:hidden justify-center border-t-2 px-0 mt-16 items-center"
+        >
+          <p class="mr-3 text-white">GET IN TOUCH WITH US</p>
+          <img
+            src="assets/images/arrow-up.svg"
+            class="rotate-90"
+            alt="arrow-up"
+          />
+        </div>
+      </header>
+      <!-- injury -->
+      <section class="injury">
+        <div class="flex items-center relative">
+          <h2 class="injury-heading lg:my-8 text-center xl:my-24 mx-auto">
+            Dedicated, Diligent Personal Injury Representation When You Need It
+            Most In South Carolina
+          </h2>
+        </div>
+        <div
+          class="grid grid-cols-6 items-center relative hammer-container mx-3 lg:mx-0"
+        >
+          <div class="col-start-1 col-span-3 row-span-full">
+            <img
+              src="./assets/images/hammer.jpg"
+              alt="juge hammer"
+              class="w-[90%] hidden top-0 z-30 relative lg:inline"
+            />
+          </div>
+          <div
+            class="lg:col-start-3 col-start-1 col-span-6 lg:col-span-5 row-span-full"
+          >
+            <div class="info-box w-full">
+              <h3>
+                Robert J. Wyndham and his team are always prepared to help you
+                with the unexpected.
+              </h3>
+              <p>
+                Nobody anticipates being sued, being injured, being out of work,
+                or being charged with a crime. When these unwelcome events find
+                you, you should find me. Robert J. Wyndham has over 23 years of
+                legal experience and will work tirelessly to protect your rights
+                and interests. Whether you are facing a situation that can be
+                resolved through aggressive negotiation, or your circumstances
+                require me to proceed to trial, I will zealously advocate for
+                you every step of the way.
+              </p>
+              <p>
+                Not all cases end up in court. Indeed, the vast majority of my
+                cases do not. I am convinced, however, that my willingness and
+                ability to go to trial helps me get better results for my
+                clients. My experience is that insurance companies are
+                formidable opponents who are ruthless when it comes to
+                protecting their bottom line. They engage in negotiations to
+                save money, not to do the right thing. Knowing that I am ready,
+                willing, and able to go to court if necessary, helps me avoid a
+                trial in most instances. I negotiate on an equal footing because
+                I know the law and are not intimidated by the threat of going to
+                trial.
+              </p>
+              <div class="flex items-end">
+                <p class="mr-3">Learn more about our team</p>
+                <img src="/assets/images/arrow-right.svg" alt="arrow right" />
+              </div>
+            </div>
+            <img
+              src="./assets/images/hammer.jpg"
+              alt="juge hammer"
+              class="inline lg:hidden -mt-5 w-full"
+            />
+          </div>
+        </div>
+      </section>
+      <!-- service  -->
+      <section class="service mt-14 sm:mt-0 text-justify xl:text-left">
+        <!-- heading and swiper control -->
+        <div class="swipper-and-heading mx-6 flex justify-center items-center">
+          <!-- swiper control -->
+          <div class="hidden self-center lg:flex">
+            <a href="" class="prev mr-4">
+              <i
+                class="fa-solid fa-circle-arrow-left swiper-image"
+                style="color: #ebf2fa"
+              ></i>
+            </a>
+
+            <a class="next" href="">
+              <i
+                class="fa-solid fa-circle-arrow-right swiper-image"
+                style="color: #ebf2fa"
+              ></i>
+            </a>
+          </div>
+          <!-- heading and info -->
+          <div class="mx-6 xl:mx-0">
+            <h2 class="text-left">
+              sound advice and aggressive representation in a variety of areas
+            </h2>
+            <p class="mt-6">
+              The legal system can be complex and treacherous. If you are
+              dealing with an insurance adjuster, a worker’s compensation
+              adjuster, or facing an upcoming traffic ticket or other charge,
+              you can be sure that the other side will have an unfair advantage
+              if you are unrepresented. Knowing the rules is essential to
+              getting a “fair shake” from the system. Please consult with an
+              attorney of your choice. Too many people wait until it’s too late.
+              Don’t be one of them.
+            </p>
+          </div>
+        </div>
+        <!-- card swiper -->
+        <div class="swiper mySwiper mt-10 lg:mt-12">
+          <div class="swiper-wrapper card-container">
+            <div
+              class="col-span-1 flex flex-col p-4 card text-center swiper-slide card"
+            >
+              <h3 class="mb-2 font-bold text-2xl">Personal Injury</h3>
+
+              <p class="text-md text-justify">
+                Before you settle with the insurance company, call us. We want
+                to make sure you’re getting what you deserve.
+              </p>
+              <div
+                class="flex flex-wrap items-center justify-center mt-2 pt-3 text-xs"
+              >
+                <p class="mr-2 mb-2">Learn more</p>
+                <p class="mr-2 mb-2">
+                  <img src="./assets/images/yellow-right-arrow.svg" alt="" />
+                </p>
+              </div>
+            </div>
+            <!-- 2 -->
+            <div
+              class="col-span-1 flex flex-col p-4 card text-center swiper-slide card image2"
+            >
+              <h3 class="mb-2 font-bold text-2xl">Wrongful Death</h3>
+
+              <p class="text-md text-justify">
+                You deserve compensation for your loss. Let us help you through
+                this process.
+              </p>
+              <div
+                class="flex flex-wrap items-center justify-center mt-2 pt-3 text-xs"
+              >
+                <p class="mr-2 mb-2">Learn more</p>
+                <p class="mr-2 mb-2">
+                  <img src="./assets/images/yellow-right-arrow.svg" alt="" />
+                </p>
+              </div>
+            </div>
+            <!-- 3 -->
+            <div
+              class="col-span-1 flex flex-col p-4 card text-center swiper-slide card image3"
+            >
+              <h3 class="mb-2 font-bold text-2xl">Criminal Defense</h3>
+
+              <p class="text-md text-justify">
+                You don’t have to fight your criminal charges alone. We can
+                help.
+              </p>
+              <div
+                class="flex flex-wrap items-center justify-center mt-2 pt-3 text-xs"
+              >
+                <p class="mr-2 mb-2">Learn more</p>
+                <p class="mr-2 mb-2">
+                  <img src="./assets/images/yellow-right-arrow.svg" alt="" />
+                </p>
+              </div>
+            </div>
+            <!-- 4 -->
+            <div
+              class="col-span-1 flex flex-col p-4 card text-center swiper-slide card image4"
+            >
+              <h3 class="mb-2 font-bold text-2xl">Trucking Accidents</h3>
+
+              <p class="text-md text-justify">
+                We’ll make sure you get the justice and compensation you
+                deserve.
+              </p>
+              <div
+                class="flex flex-wrap justify-center items-center mt-2 pt-3 text-xs"
+              >
+                <p class="mr-2 mb-2">Learn more</p>
+                <p class="mr-2 mb-2">
+                  <img src="./assets/images/yellow-right-arrow.svg" alt="" />
+                </p>
+              </div>
+            </div>
+            <!-- 5 -->
+            <div
+              class="col-span-1 flex flex-col p-4 card text-center swiper-slide card image5"
+            >
+              <h3 class="mb-2 font-bold text-2xl">Car Accidents</h3>
+
+              <p class="text-md text-justify">
+                If you’ve been a victim of a car accident, get in touch with us
+                right away.
+              </p>
+              <div
+                class="flex flex-wrap justify-center items-center mt-2 pt-3 text-xs"
+              >
+                <p class="mr-2 mb-2">Learn more</p>
+                <p class="mr-2 mb-2">
+                  <img src="./assets/images/yellow-right-arrow.svg" alt="" />
+                </p>
+              </div>
+            </div>
+            <!-- 6 -->
+            <div
+              class="col-span-1 flex flex-col p-4 card text-center swiper-slide card image6"
+            >
+              <h3 class="mb-2 font-bold text-2xl">Motorcycle Accidents</h3>
+
+              <p class="text-md text-justify">
+                When it comes to motorcycle accident, it pays to have a lawyer
+                on your side who can help.
+              </p>
+              <div
+                class="flex flex-wrap justify-center items-center mt-2 pt-3 text-xs"
+              >
+                <p class="mr-2 mb-2">Learn more</p>
+                <p class="mr-2 mb-2">
+                  <img src="./assets/images/yellow-right-arrow.svg" alt="" />
+                </p>
+              </div>
+            </div>
+            <!-- 7 -->
+            <div
+              class="col-span-1 flex flex-col p-4 card text-center swiper-slide card image7"
+            >
+              <h3 class="mb-2 font-bold text-2xl">Pedestrian Accidents</h3>
+
+              <p class="text-md text-justify">
+                You don’t have to fight on your own. Our experienced attorneys
+                will work with you and for you.
+              </p>
+              <div
+                class="flex flex-wrap justify-center items-center mt-2 pt-3 text-xs"
+              >
+                <p class="mr-2 mb-2">Learn more</p>
+                <p class="mr-2 mb-2">
+                  <img src="./assets/images/yellow-right-arrow.svg" alt="" />
+                </p>
+              </div>
+            </div>
+            <!-- 8 -->
+            <div
+              class="col-span-1 flex flex-col p-4 card text-center swiper-slide card image8"
+            >
+              <h3 class="mb-2 font-bold text-2xl">DUI & BUI</h3>
+
+              <p class="text-md text-justify">
+                If you’re facing charges from a DUI or a BUI, we want to help.
+              </p>
+              <div
+                class="flex flex-wrap justify-center items-center mt-2 pt-3 text-xs"
+              >
+                <p class="mr-2 mb-2">Learn more</p>
+                <p class="mr-2 mb-2">
+                  <img src="./assets/images/yellow-right-arrow.svg" alt="" />
+                </p>
+              </div>
+            </div>
+            <!-- 9 -->
+            <div
+              class="col-span-1 flex flex-col p-4 card text-center swiper-slide card image9"
+            >
+              <h3 class="mb-2 font-bold text-2xl">Traffic Ticket</h3>
+
+              <p class="text-md text-justify">
+                Unsure what to do with your traffic ticket charges? It pays to
+                have Wyndham Law on your side.
+              </p>
+              <div
+                class="flex flex-wrap justify-center items-center mt-2 pt-3 text-xs"
+              >
+                <p class="mr-2 mb-2">Learn more</p>
+                <p class="mr-2 mb-2">
+                  <img src="./assets/images/yellow-right-arrow.svg" alt="" />
+                </p>
+              </div>
+            </div>
+            <!-- 10 -->
+            <div
+              class="col-span-1 flex flex-col p-4 card text-center swiper-slide card image10"
+            >
+              <h3 class="mb-2 font-bold text-2xl">Domestic Violence</h3>
+
+              <p class="text-md text-justify">
+                It pays to have the right law firm on your side when facing
+                domestic violence charges.
+              </p>
+              <div
+                class="flex flex-wrap justify-center items-center mt-2 pt-3 text-xs"
+              >
+                <p class="mr-2 mb-2">Learn more</p>
+                <p class="mr-2 mb-2">
+                  <img src="./assets/images/yellow-right-arrow.svg" alt="" />
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="block text-right mt-4 lg:hidden self-center">
+          <a href="" class="prev mr-4">
+            <i class="fa-solid fa-circle-arrow-left" style="color: #ebf2fa"></i>
+          </a>
+
+          <a class="next" href="">
+            <i
+              class="fa-solid fa-circle-arrow-right"
+              style="color: #ebf2fa"
+            ></i>
+          </a>
+        </div>
+        <!-- advocating -->
+        <div
+          class="xl:mt-32 mt-12 lg:flex gap-5 2xl:gap-32 lg:gap-12 2xl:mx-36 relative"
+        >
+          <img
+            src="./assets/images/car-crash.png"
+            class="z-10 hidden lg:block xl:w-auto lg:w-1/2"
+            alt="second car crash"
+          />
+          <div>
+            <div class="mx-6 xl:mx-0">
+              <h3 class="lg:text-left">Advocating For You After An Accident</h3>
+              <p class="advo-para">
+                Accidents happen to us all. If we are lucky, the outcome is
+                annoying but minor, like a fender bender. However, many
+                accidents have severe consequences that can involve a lengthy
+                recovery time, multiple medical bills and inability to work.
+              </p>
+              <p class="advo-para">
+                If you have been the victim of serious car accident, been hurt
+                at work or suffered injuries due to unsafe premises, you may be
+                entitled to compensation for your injuries and related expenses.
+                Before you talk to the insurance company, contact Wyndham Law
+                Firm, LLC at 843-919-7910 to ensure that you receive a fair
+                settlement.
+              </p>
+            </div>
+            <div class="relative advo-learn-more flex items-center mt-20">
+              <p class="uppercase">Learn more about HOW WE CAN HELP</p>
+              <img
+                src="assets/images/arrow-right.svg"
+                alt="arrow right"
+                class="ml-3"
+              />
+              <img
+                src="assets/images//learn-more-text-blue-box.png"
+                alt="blue box"
+                class="absolute"
+              />
+            </div>
+          </div>
+          <img
+            src="assets/images/car-crash-blue-box.png"
+            alt="box under car crash image"
+            class="absolute z-0 box-under"
+          />
+          <img
+            src="./assets/images/car-crash.png"
+            class="z-10 relative w-full mt-9 lg:hidden"
+            alt="second car crash"
+          />
+        </div>
+      </section>
+      <!-- safeguard -->
+      <section class="mt-36 text-center sefeguard px-6 xl:px-0">
+        <h2>It’s your life. Let Us safeguard your future.</h2>
+        <p>
+          When you choose Wyndham Law Firm, you're choosing a team that's
+          dedicated to your well-being and committed to <br />
+          achieving the best possible outcome for your case.
+        </p>
+        <p>
+          Get in touch with us today and let’s answer your questions and discuss
+          your case.
+        </p>
+        <div class="mt-16">
+          <a href="" class="uppercase rounded-full">schedule consulataion</a>
+        </div>
+      </section>
+      <!-- footer -->
+      <footer
+        class="mt-20 xl:gap-12 2xl:gap-32 flex justify-center flex-wrap 2xl:flex-nowrap lg:justify-between items-center sm:items-start text-center flex-col lg:flex-row sm:text-left"
+      >
+        <!-- 1 -->
+        <div class="info">
+          <h4>Wyndham Law Firm, LLC</h4>
+          <p>
+            Wyndham Law Firm, LLC is located in Charleston, SC and serves
+            clients in and around Mount Pleasant, Johns Island, Sullivans
+            Island, Isle Of Palms, Charleston, North Charleston, Berkeley County
+            and Charleston County.
+          </p>
+        </div>
+        <!-- 2 -->
+        <div class="mt-7 xl:mt-0">
+          <h4>Contact Us</h4>
+          <p>
+            Charleston Office <br />
+            47 State Street, P.O. Box 598 <br />
+            Charleston, SC 29401
+          </p>
+          <p class="least-use">
+            <i class="fa-solid fa-phone"></i> 843-919-7910
+          </p>
+        </div>
+        <!-- 3 -->
+        <div class="mt-9 xl:mt-0">
+          <h4>Quick Links</h4>
+          <div class="sm:flex sm:gap-32">
+            <ul>
+              <li>Home</li>
+              <li>About The Firm</li>
+              <li>Personal Injury</li>
+              <li>Criminal Defense</li>
+              <li>Contact Us</li>
+            </ul>
+            <ul>
+              <li>Disclaimer</li>
+              <li>Site Map</li>
+              <li>Privacy Policy</li>
+            </ul>
+          </div>
+        </div>
+        <!-- 4 -->
+        <div class="xl:mt-0 mt-12 lg:self-center">
+          <img src="assets/images/preeminent.png" alt="other logo" />
+          <img
+            src="assets/images/super-lawyer.png"
+            alt="super lawyer logo"
+            class="mt-10"
+          />
+        </div>
+      </footer>
+      <div class="text-center">
+        <p>
+          © 2023 Wyndham Law Firm, LLC • All Rights Reserved • Website and
+          Marketing Solutions By Fuel Web Marketing
+        </p>
+      </div>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/alpinejs/3.9.5/cdn.js"></script>
+      <script src="assets/js/script.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    </div>
+  </body>
+</html>
